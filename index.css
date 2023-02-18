@@ -1,0 +1,194 @@
+/* Reset styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Set default font and colors */
+body {
+	/* font-family: Arial, sans-serif; */
+	font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+/* Header styles */
+header {
+	background-color: #1E2039;
+	color: #fff;
+	padding: 10px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s;
+}
+
+nav a:hover {
+	color: yellow;
+}
+
+header h1 {
+	font-size: 36px;
+	margin-right: auto;
+}
+
+section {
+	padding: 50px 200px;
+	/* margin-bottom: 50px; */
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+.hero-section {
+	height: 750px;
+	/* background-color: blueviolet; */
+}
+
+.hero-content {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	position: absolute;
+}
+
+.hero-content h2 {
+	margin-top: 0;
+}
+
+.hero-content p {
+	margin-top: 20px;
+}
+
+.hero-image {
+	height: 600px;
+	float: right;
+}
+
+.headquarters-section {
+	background-color: #f1d100;
+}
+
+.headquarters-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 100px;
+}
+
+.headquarters-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 200px;
+}
+
+.headquarters-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom: 20px;
+}
+
+.headquarters-text {
+	font-weight: bold;
+	text-align: center;
+}
+
+.message-us-section {
+	background-color: #1E2039;
+	color: #fff;
+}
+
+.message-us-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.message-us-form {
+	width: 45%;
+}
+
+.message-form-field div input[type="text"],
+.message-form-field div input[type="date"],
+.message-form-field div select,
+.message-form-field div textarea {
+	width: 75%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.col-25 {
+	float: left;
+	width: 25%;
+	margin-bottom: 6px;
+}
+
+.col-75 {
+	float: left;
+	width: 75%;
+	margin-bottom: 6px;
+}
+
+.btn-submit {
+	width: 100%;
+	background-color: aquamarine;
+}
+
+/* CSS */
+.btn-submit {
+	background-color: #f1d100;
+	border-radius: 6px;
+	border-width: 0;
+	color: #1E2039;
+	cursor: pointer;
+	/* font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif; */
+	font-size: 100%;
+	font-weight: bold;
+	height: 40px;
+	overflow: hidden;
+	padding: 0 25px;
+	text-align: center;
+	width: 100%;
+}
+
+.btn-submit:focus {
+	box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+/* Footer styles */
+footer {
+	background-color: #f1d100;
+	color: #1E2039;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 10px 40px;
+	font-weight: bold;
+}
+
+.footer-right {
+	text-align: right;
+}
