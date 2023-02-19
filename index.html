@@ -3,12 +3,12 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Company Profile</title>
+	<title>Revou Practice</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
-	<header>
+	<header class="header">
 		<div class="navbar-brand">
 			<img
 				src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png"
@@ -26,7 +26,7 @@
 	<main>
 		<section class="hero-section">
 			<div class="hero-content">
-				<h2>Hi, Welcome to the website!</h2>
+				<h1>Hi, Welcome to the website!</h1>
 				<p>Ini adalah website.</p>
 			</div>
 			<img src="img/hero.png" alt="Logo" class="hero-image">
@@ -129,6 +129,13 @@
 				Message: ${message}
 			`;
 			messageDisplay.innerHTML = displayString;
+		});
+		window.addEventListener('scroll', function () {
+			if (window.pageYOffset === 0) {
+				document.documentElement.removeAttribute('data-scroll');
+			} else {
+				document.documentElement.setAttribute('data-scroll', 'top');
+			}
 		});
 	</script>
 </body>

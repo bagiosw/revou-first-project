@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="profile.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="header">
+		<div class="navbar-brand">
+			<h1>Imam.</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Message Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<main>
+		<section class="hero-section">
+			<!-- <div class="header">
+				<div class="navbar-brand">
+					<h1>imam.</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Message Us</a></li>
+					</ul>
+				</nav>
+			</div> -->
+			<div class="hero-wrapper">
+				<div class="hero-content">
+					<p>Hi ! Lorem ipsum,</p>
+					<h1>Sable</h1>
+					<p class="name-muted">Lorem ipsum</p>
+				</div>
+				<img src="img/profile.png" alt="Logo" class="hero-image">
+			</div>
+			<div class="about-child-section">
+				<div class="about-me">
+					<h2>About Me</h2>
+					<p>Hello, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+						et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+						ea
+						commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim
+						id est laborum.</p>
+				</div>
+				<a href="http://" class="about-right">
+					<div>
+						<p>Lorem <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+					</div>
+				</a>
+			</div>
+		</section>
+		<section class="headquarters-section">
+			<h2>Lorem Ipsum</h2>
+			<div class="headquarters-content">
+				<div class="headquarters-item">
+					<img src="img/p2.png" alt="Jakarta" class="headquarters-image">
+					<p class="headquarters-text">A</p>
+				</div>
+				<div class="headquarters-item">
+					<img src="img/p1.png" alt="Bandung" class="headquarters-image">
+					<p class="headquarters-text">B</p>
+				</div>
+			</div>
+		</section>
+		<section class="message-us-section">
+			<h2>Reach Me</h2>
+			<br><br>
+			<div class="message-us-content">
+				<div class="message-us-display">
+					<p id="message-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class="message-us-form">
+					<form id="message-form">
+						<div class="message-form-field">
+							<div class="col-70">
+								<input type="text" id="name-input" style="width: 100%;">
+							</div>
+							<div class="col-30">
+								<button class="btn-submit" role="button">Notify Me</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</section>
+	</main>
+	<footer>
+		<p class="footer-right">Created by Imam Subagio W | Revou&copy; Fundamental Course</p>
+	</footer>
+
+
+
+	<script>
+		window.addEventListener('scroll', function () {
+			if (window.pageYOffset === 0) {
+				document.documentElement.removeAttribute('data-scroll');
+			} else {
+				document.documentElement.setAttribute('data-scroll', 'top');
+			}
+		});
+	</script>
+</body>
+
+</html>
