@@ -265,10 +265,7 @@ section {
 	width: 45%;
 }
 
-.message-form-field div input[type="text"],
-.message-form-field div input[type="date"],
-.message-form-field div select,
-.message-form-field div textarea {
+.message-form-field div input[type="text"] {
 	width: 75%;
 	padding: 8px;
 	border: 1px solid #ccc;
@@ -397,5 +394,18 @@ footer {
 		align-items: center;
 		height: 20px;
 		text-decoration-line: none;
+	}
+
+	.message-us-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.message-form-field div input[type="text"] {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid #ccc;
+		margin-bottom: 10px;
+		line-height: 20px;
 	}
 }
