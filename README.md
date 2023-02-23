@@ -7,3 +7,6 @@ Simple project.
 
 ## Demo
 https://bagiosw.github.io/revou-project/
+
+## Screehshots
+![ss1](https://github.com/bagiosw/revou-first-project/blob/master/img/1.png)
